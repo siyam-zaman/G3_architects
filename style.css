@@ -72,6 +72,9 @@ nav a {
   font-weight: 600;
   margin-bottom: 50px;
 }
+.btn:hover{
+    background: #dd7c0d;
+}
 .Banner-Container img {
   width: 100%;
   margin-bottom: 45px;
@@ -117,7 +120,79 @@ main {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
-  margin-bottom:32px;
+  margin-bottom: 32px;
+}
+/* ?OUr Features  */
+.Our-Features {
+  margin-top: 130px;
+  display: flex;
+  gap: 54px;
+  height:100vh;
+}
+.Our-Features-Container-Title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  width: 29.25rem;
+  border-left: 3px solid #ff900e;
+  padding-left: 26px;
+  margin-bottom: 24px;
+}
+.Our-Features-Container-Description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 30px;
+}
+.Feature-Container {
+  max-width: 586px;
+}
+.Feature {
+  padding: 30px 33px;
+}
+.Feature-Title {
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-description {
+  color: #727272;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.Feature-Container-Img {
+  height:100%;
+  position: relative;
+}
+.btn2 {
+  background: #ff900e;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 36px 42px;
+  color: #fff;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  position: absolute;
+  left:45%;
+  top:340%;
+  cursor: pointer;
+}
+.btn2:hover{
+    background: #dd7c0d;
+}
+.year {
+  color: #fff;
+  text-align: center;
+  font-size: 4.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem;
 }
 
 /* !media Quary */
@@ -152,15 +227,40 @@ main {
     margin-bottom: 25px;
   }
   /* ?main  */
-  main{
-    padding:85px 40px ;
+  main {
+    padding: 85px 40px;
   }
-  .Team-Features-Container{
+  .Team-Features-Container {
     flex-direction: column;
     text-align: center;
   }
-  .Team-Features-img{
-    grid-template-columns:repeat(1,1fr);
+  .Team-Features-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* ?Our Feature  */
+  .Our-Features{
+    flex-direction: column;
+  }
+  .Feature-Container-Img{
+    width:100%;
+  }
+  .Our-Features-Container-Title{
+    font-size: 1.8125rem;
+    width: 19.25rem;
+  }
+  .Feature{
+    padding:20px 0px;
+  }
+  .btn2{
+    left:30%;
+    top:517%;
+    font-size:1rem;
+    line-height:1.5rem;
+    padding:20px 30px;
+  }
+  .year{
+    font-size:1.5rem;
+    line-height: 0;
   }
 }
 
