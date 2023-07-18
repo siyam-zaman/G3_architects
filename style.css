@@ -34,6 +34,7 @@ nav a {
   font-weight: 500;
   text-decoration: none;
 }
+/* ?Banner  */
 .Banner-Container {
   margin-top: 102px;
 }
@@ -57,7 +58,7 @@ nav a {
   font-style: normal;
   font-weight: 400;
   line-height: 1.625rem;
-  margin-bottom:32px;
+  margin-bottom: 32px;
 }
 .btn {
   background: #ff900e;
@@ -69,12 +70,56 @@ nav a {
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-.Banner-Container img{
-    width:100%;
-    margin-bottom:45px;
+.Banner-Container img {
+  width: 100%;
+  margin-bottom: 45px;
 }
+/* ?main */
+main {
+  max-width: 1440px;
+  padding: 85px 240px;
+}
+/* ?Team features  */
+.Team-Features-Container {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+.Team-Features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.Team-Features-Text-Container {
+  max-width: 537px;
+}
+.Features-Container-Title {
+  color: #727272;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.Of-Our {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: bold;
+}
+.Features {
+  color: #ff900e;
+  font-weight: 700;
+}
+.Features-Container-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom:32px;
+}
+
 /* !media Quary */
 @media screen and (max-width: 425px) {
   header {
@@ -90,19 +135,36 @@ nav a {
   nav a {
     font-weight: 700;
   }
-  .Banner-Title{
-    font-size:2rem;
-    margin-bottom:10px;
+  /* ?Banner  */
+  .Banner-Title {
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
-  .Banner-Description{
-    font-size:0.8rem;
-    line-height:1rem;
-    margin-bottom:15px;
+  .Banner-Description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 15px;
   }
-  .btn{
-    margin-bottom:25px;
+  .btn {
+    margin-bottom: 25px;
   }
-  .Banner-Container img{
-    margin-bottom:25px;
+  .Banner-Container img {
+    margin-bottom: 25px;
   }
+  /* ?main  */
+  main{
+    padding:85px 40px ;
+  }
+  .Team-Features-Container{
+    flex-direction: column;
+    text-align: center;
+  }
+  .Team-Features-img{
+    grid-template-columns:repeat(1,1fr);
+  }
+}
+
+/* Test perpose */
+body {
+  /* background-color: rgba(220, 20, 60, 0.623); */
 }
