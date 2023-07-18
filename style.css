@@ -72,8 +72,8 @@ nav a {
   font-weight: 600;
   margin-bottom: 50px;
 }
-.btn:hover{
-    background: #dd7c0d;
+.btn:hover {
+  background: #dd7c0d;
 }
 .Banner-Container img {
   width: 100%;
@@ -127,7 +127,7 @@ main {
   margin-top: 130px;
   display: flex;
   gap: 54px;
-  height:100vh;
+  height: 100vh;
 }
 .Our-Features-Container-Title {
   color: #131313;
@@ -165,7 +165,7 @@ main {
   line-height: 1.625rem;
 }
 .Feature-Container-Img {
-  height:100%;
+  height: 100%;
   position: relative;
 }
 .btn2 {
@@ -179,12 +179,12 @@ main {
   font-weight: 500;
   line-height: 2.5rem;
   position: absolute;
-  left:45%;
-  top:340%;
+  left: 45%;
+  top: 340%;
   cursor: pointer;
 }
-.btn2:hover{
-    background: #dd7c0d;
+.btn2:hover {
+  background: #dd7c0d;
 }
 .year {
   color: #fff;
@@ -193,6 +193,50 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 4.375rem;
+}
+/* ?Facts  */
+.Facts-Container-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 130px;
+  margin-bottom: 24px;
+}
+.Facts-Container-description {
+  color: #727272;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  width: 33.875rem;
+  margin-bottom: 100px;
+}
+.Facts-Iteam-Container {
+  display: flex;
+  justify-content: space-around;
+}
+.fact {
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid #ff900e;
+  padding: 45px 35px;
+}
+.fact img {
+  margin-bottom: 10px;
+}
+.Fact-tilte {
+  color: #424242;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.Fact-subtilte {
+  color: #727272;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
 }
 
 /* !media Quary */
@@ -238,29 +282,42 @@ main {
     grid-template-columns: repeat(1, 1fr);
   }
   /* ?Our Feature  */
-  .Our-Features{
+  .Our-Features {
     flex-direction: column;
   }
-  .Feature-Container-Img{
-    width:100%;
+  .Feature-Container-Img {
+    width: 100%;
   }
-  .Our-Features-Container-Title{
+  .Our-Features-Container-Title {
     font-size: 1.8125rem;
     width: 19.25rem;
   }
-  .Feature{
-    padding:20px 0px;
+  .Feature {
+    padding: 20px 0px;
   }
-  .btn2{
-    left:30%;
-    top:517%;
-    font-size:1rem;
-    line-height:1.5rem;
-    padding:20px 30px;
+  .btn2 {
+    left: 30%;
+    top: 517%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 20px 30px;
   }
-  .year{
-    font-size:1.5rem;
+  .year {
+    font-size: 1.5rem;
     line-height: 0;
+  }
+  .Facts-Container{
+    margin-top:830px;
+  }
+  .Facts-Container-description{
+    width: 23.875rem;
+    margin-bottom:50px;
+  }
+  .Facts-Iteam-Container{
+    flex-direction: column;
+  }
+  .fact{
+    margin-bottom:20px;
   }
 }
 
