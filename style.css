@@ -26,28 +26,83 @@ nav > ul {
   list-style: none;
   gap: 20px;
 }
-nav a{
-    color: #424242;
-    text-align: center;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: none;
+nav a {
+  color: #424242;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
 }
-
- /* !media Quary */
- @media screen and (max-width:425px){
-    header{
-        padding:20px 40px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    nav >ul{
-        justify-content: center;
-        margin-top:10px;
-    }
-    nav a{
-        font-weight:700;
-    }
- }
+.Banner-Container {
+  margin-top: 102px;
+}
+.Banner-Text-Container {
+  max-width: 54.25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.Banner-Title {
+  color: #131313;
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+.Banner-Description {
+  color: #727272;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom:32px;
+}
+.btn {
+  background: #ff900e;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 21px 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom:50px;
+}
+.Banner-Container img{
+    width:100%;
+    margin-bottom:45px;
+}
+/* !media Quary */
+@media screen and (max-width: 425px) {
+  header {
+    padding: 20px 40px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav > ul {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  nav a {
+    font-weight: 700;
+  }
+  .Banner-Title{
+    font-size:2rem;
+    margin-bottom:10px;
+  }
+  .Banner-Description{
+    font-size:0.8rem;
+    line-height:1rem;
+    margin-bottom:15px;
+  }
+  .btn{
+    margin-bottom:25px;
+  }
+  .Banner-Container img{
+    margin-bottom:25px;
+  }
+}
